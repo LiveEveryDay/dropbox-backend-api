@@ -14,6 +14,14 @@ Run the following to install all the necessery files.
 npm install
 ```
 
+Create a .env file on your root folder with the following format:
+
+```
+DBX_APP_KEY = YOUR APP KEY FROM DROPOBOX
+DBX_APP_SECRET = YOU APP SECRET FROM DROPBOX
+OAUTH_REDIRECT_URL = YOUR REDIRECT AUTHORIZATION URL FROM DROPBOX 
+SESSION_ID_SECRET = A RAND SALT FOR SESSION
+```
 ## Running 
 
 After that execute it , with the following command
